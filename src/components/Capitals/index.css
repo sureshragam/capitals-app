@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.main-container {
+  background: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  width: 50%;
+  height: 30%;
+  border-radius: 15px;
+  padding: 25px;
+}
+.select-tab {
+  display: flex;
+  align-items: center;
+}
+.select-tab > select {
+  display: inline-block;
+  margin-right: 15px;
+  width: 250px;
+  height: 30px;
+}
+.country {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 0px;
+}
